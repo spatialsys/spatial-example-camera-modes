@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: First Person View
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"First
+      Person View","summary":null,"pan":{"x":414.0,"y":-49.0},"zoom":1.0,"elements":[{"defaultValues":{"forceFirstPerson":{"$content":true,"$type":"System.Boolean"}},"position":{"x":212.0,"y":-232.0},"guid":"17743ebd-b244-42bc-bd53-f60221a1ceaa","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SetPlayerCameraForceFirstPersonNode","$id":"9"},{"defaultValues":{"forceFirstPerson":{"$content":false,"$type":"System.Boolean"}},"position":{"x":238.0,"y":-50.0},"guid":"ea6904e4-f2e8-4a15-927a-98170d5058ab","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SetPlayerCameraForceFirstPersonNode","$id":"11"},{"coroutine":true,"defaultValues":{"triggerRef":null},"position":{"x":-141.0,"y":-223.0},"guid":"5162df7f-e878-4ba3-a617-c702006f17f2","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SpatialTriggerEventOnEnter","$id":"13"},{"coroutine":false,"defaultValues":{"triggerRef":null},"position":{"x":-151.0,"y":-43.0},"guid":"5f274211-881f-421a-a67e-32f95090e4e6","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SpatialTriggerEventOnExit","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"inputTrigger","guid":"ff2a4b2a-9c7a-482b-a74d-d159b2188a71","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"inputTrigger","guid":"28d521dc-8fe9-4b04-a71b-cd38fdca9f57","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
